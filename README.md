@@ -60,7 +60,7 @@ SETUP_REPORT.md: Detailed execution report documenting all commands run, their o
 
 commands.txt: Complete command reference listing every firewall command executed during this project in sequential order.
 
-screenshots/ directory: Contains snapshots of terminal output showing rule creation, testing, and verification stages of this configuration exercise.
+screenshots : snapshots of terminal output showing rule creation, testing, and verification stages of this configuration exercise.
 
 ## Learning Outcomes:
 
