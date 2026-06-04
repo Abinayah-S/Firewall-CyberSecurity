@@ -1,0 +1,38 @@
+# Check UFW version
+sudo ufw version
+
+# View current status
+sudo ufw status
+
+# Enable firewall 
+sudo ufw enable
+
+# View detailed firewall status and default traffic policies 
+sudo ufw status verbose
+
+# Add deny rule for port 23 
+sudo ufw deny 23/tcp
+
+# Add allow rule for port 22 
+sudo ufw allow 22/tcp
+
+# View all rules numbered 
+sudo ufw status numbered
+
+# Test port 23 block 
+telnet localhost 23
+
+# Test with netcat 
+nc -zv localhost 23
+
+# Verify SSH is listening 
+sudo ss -tulpn | grep ssh
+
+# Remove the test rule
+sudo ufw delete deny 23/tcp
+
+# Verify removal 
+sudo ufw status numbered
+
+# View current status
+sudo ufw status
