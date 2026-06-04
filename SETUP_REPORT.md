@@ -1,8 +1,11 @@
 # UFW Firewall Configuration Setup Report
 
 **System**: Linux Notebook PC (Ubuntu-based)
+
 **Username**: abinayah
+
 **Firewall Tool**: UFW (Uncomplicated Firewall) 0.36.2
+
 **System Hostname**: abinayah-HP-245-G5-Notebook-PC
 
 ## Executive Summary
@@ -174,7 +177,7 @@ New profiles: skip
 To                         Action      From
 --                         ------      ----
 22/tcp                     ALLOW IN    Anywhere
-22/tcp (v6)                ALLOW IN    Anywhere (v6)Configuration Analysis: This verbose output provides complete firewall policy information. The default policy is set to deny all incoming traffic, allow all outgoing traffic, and disable routing. This is a standard secure configuration where the system must explicitly allow inbound traffic while being permissive about outbound traffic. Logging is enabled at low level to capture blocked connections without overwhelming the system with log data. This configuration represents a reasonable balance between security and usability.
+22/tcp (v6)                ALLOW IN    Anywhere (v6)
 
 Configuration Analysis: This verbose output provides complete firewall policy information. The default policy is set to deny all incoming traffic, allow all outgoing traffic, and disable routing. This is a standard secure configuration where the system must explicitly allow inbound traffic while being permissive about outbound traffic. Logging is enabled at low level to capture blocked connections without overwhelming the system with log data. This configuration represents a reasonable balance between security and usability.
 
